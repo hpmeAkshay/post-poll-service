@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="home-service/home-service/src/main/java"/>
+	<classpathentry kind="src" path="home-service/home-service/src/test/java"/>
+	<classpathentry kind="src" path="post-poll-service/src/main/java"/>
+	<classpathentry kind="src" path="post-poll-service/src/test/java"/>
+	<classpathentry kind="lib" path="home-service/home-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="post-poll-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Akshay Kadam/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.7.6/spring-boot-autoconfigure-2.7.6.jar" sourcepath="C:/Users/Akshay Kadam/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.7.6/spring-boot-autoconfigure-2.7.6-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.springframework.boot"/>
+			<attribute name="maven.artifactId" value="spring-boot-autoconfigure"/>
+			<attribute name="maven.version" value="2.7.6"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Akshay Kadam/.m2/repository/org/springframework/boot/spring-boot/2.7.6/spring-boot-2.7.6.jar" sourcepath="C:/Users/Akshay Kadam/.m2/repository/org/springframework/boot/spring-boot/2.7.6/spring-boot-2.7.6-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.springframework.boot"/>
+			<attribute name="maven.artifactId" value="spring-boot"/>
+			<attribute name="maven.version" value="2.7.6"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="post-poll-service/target/classes"/>
+</classpath>

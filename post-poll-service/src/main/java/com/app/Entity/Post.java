@@ -1,10 +1,7 @@
 package com.app.Entity;
 
 import java.sql.Blob;
-import java.time.LocalDate;
 import java.util.Date;
-import java.util.UUID;
-
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -40,11 +37,11 @@ public class Post {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int postId;
-
+	
 //	@ManyToOne(cascade = CascadeType.ALL)
 //	@JoinColumn(name = "user_Id")
 //	private Users user;
-
+	
 	@Column
 	private String description;
 	@Column

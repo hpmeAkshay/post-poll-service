@@ -1,3 +1,9 @@
 [submodule "home-service"]
 	path = home-service
 	url = https://github.com/hpmeAkshay/home-service.git
+[submodule "common-data"]
+	path = common-data
+	url = https://github.com/hpmeAkshay/common-data.git
+[submodule "post-poll-service/common-data"]
+	path = post-poll-service/common-data
+	url = https://github.com/hpmeAkshay/common-data.git
