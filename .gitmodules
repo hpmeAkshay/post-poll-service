@@ -7,3 +7,6 @@
 [submodule "post-poll-service/common-data"]
 	path = post-poll-service/common-data
 	url = https://github.com/hpmeAkshay/common-data.git
+[submodule "post-poll-service/src/main/java/com/app/submodule/common"]
+	path = post-poll-service/src/main/java/com/app/submodule/common
+	url = https://github.com/hpmeAkshay/common.git

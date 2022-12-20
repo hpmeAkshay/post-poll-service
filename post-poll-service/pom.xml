@@ -11,7 +11,7 @@
 	<groupId>com.app</groupId>
 	<artifactId>post-poll-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>post-poll-service</name>
+	<name>post-poll-service</name>	
 	<description>social-media-app using microservices architecture</description>
 	<properties>
 		<java.version>11</java.version>
@@ -69,6 +69,10 @@
 		  <artifactId>modelmapper</artifactId>
 		  <version>3.0.0</version>
 		</dependency>
+		<dependency>
+		    <groupId>javax.xml.bind</groupId>
+		    <artifactId>jaxb-api</artifactId>
+		    </dependency>
 	</dependencies>
 
 	<build>
