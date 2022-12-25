@@ -16,10 +16,9 @@ public class VotersController {
 	@Autowired
 	private VoterService voterService;
 	
-	
-	@PostMapping("/getVoters/{optionId}")
-	public ResponseEntity<?> getVoters(@PathVariable("optionId") int optionId){
-		return ResponseEntity.ok().body(voterService.getVoters(optionId));
-		
-	}
+//	@PostMapping("/getVoters/{optionId}")
+//	public ResponseEntity<?> getVoters(@PathVariable("optionId") int optionId){
+//		return ResponseEntity.ok().body(voterService.getVoters(optionId));
+//		
+//	}
 }

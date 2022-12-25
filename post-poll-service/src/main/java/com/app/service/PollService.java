@@ -8,7 +8,6 @@ import org.springframework.stereotype.Service;
 
 import com.app.DTO.PollDTO;
 import com.app.Entity.Poll;
-import com.app.Entity.Voters;
 import com.app.Repository.PollRepository;
 
 @Service

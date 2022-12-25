@@ -22,8 +22,8 @@ public class Voters {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int voterId;
 	
-	@ManyToOne
-	private Option optionId;
+//	@ManyToOne
+//	private Option optionId;
 	
 	@Temporal(TemporalType.TIMESTAMP)
 	@Column(name = "created_on",insertable = false)

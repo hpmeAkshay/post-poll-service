@@ -48,8 +48,8 @@ public class Poll {
 	@Column
 	private String question;
 	
-	@OneToMany(mappedBy = "pollId")
-	private List<Option> options;
+//	@OneToMany(mappedBy = "pollId")
+//	private List<Option> options;
 	
 	@Temporal(TemporalType.TIMESTAMP)
 	@Column(name = "created_on",insertable = false)
